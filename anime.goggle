@@ -1,0 +1,10 @@
+! name: Anime
+! description: Rerank results to boost content on anime. Currently consists of myanimelist and anilist.
+! public: true
+! author: 1-minute-to-midnight 
+! avatar: #254182
+
+$downrank,site=en.wikipedia.org
+
+$boost=3,site=myanimelist.net
+$boost=3,site=anilist.co
